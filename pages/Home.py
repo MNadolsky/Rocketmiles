@@ -13,8 +13,6 @@ class HomePage():
     def __init__(self, session):
 
         session.get(config.homepage_url)
-        session.set_window_position(2000,0)
-        session.maximize_window()
         self.page = session
 
     # Buttons
