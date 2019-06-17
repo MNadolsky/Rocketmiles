@@ -212,6 +212,12 @@ class SearchFunctionality(HomePageTemplate):
 
 
     def testLocationAndRewards(self):
+        """
+        To test different combinations of location/rewards, edit the string in the click_location/rewards_dropdown_item() method.
+        Any string contained in the location/rewards item will do. This test is confirmed to work for locations 'Chicago',
+        'London', 'New York', and others, and rewards 'United', 'Amazon', 'Alaska', and others. As far as I know it's fully
+        general, but I wouldn't be surprised if it needed some tweaking.
+        """
 
         page = self.page
 
